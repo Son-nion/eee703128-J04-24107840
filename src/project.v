@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_<Son-nion> (
+module tt_um_son_nion (
     input  wire [7:0] ui_in,    // 8 chân chỉ VÀO
     output wire [7:0] uo_out,   // 8 chân chỉ RA
     input  wire [7:0] uio_in,   // 8 chân hai chiều — giá trị ĐỌC VỀ
