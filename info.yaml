@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      eee703128-J04-24107840
-  author:       ""      Son-nion
+  title:        "eee703128-J04-24107840"      
+  author:       "Son-nion"     
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  ""      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
