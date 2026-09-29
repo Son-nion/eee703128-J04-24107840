@@ -5,15 +5,15 @@
 
 `default_nettype none
 
-module tt_um_example (
-    input  wire [7:0] ui_in,    // Dedicated inputs
-    output wire [7:0] uo_out,   // Dedicated outputs
-    input  wire [7:0] uio_in,   // IOs: Input path
-    output wire [7:0] uio_out,  // IOs: Output path
-    output wire [7:0] uio_oe,   // IOs: Enable path (active high: 0=input, 1=output)
-    input  wire       ena,      // always 1 when the design is powered, so you can ignore it
-    input  wire       clk,      // clock
-    input  wire       rst_n     // reset_n - low to reset
+module tt_um_<Son-nion> (
+    input  wire [7:0] ui_in,    // 8 chân chỉ VÀO
+    output wire [7:0] uo_out,   // 8 chân chỉ RA
+    input  wire [7:0] uio_in,   // 8 chân hai chiều — giá trị ĐỌC VỀ
+    output wire [7:0] uio_out,  // 8 chân hai chiều — giá trị ĐẨY RA
+    output wire [7:0] uio_oe,   // chọn chiều: 1 = ra, 0 = vào
+    input  wire       ena,
+    input  wire       clk,
+    input  wire       rst_n
 );
 
   // All output pins must be assigned. If not used, assign to 0.
